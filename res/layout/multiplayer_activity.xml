@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+    >
+
+  <Button
+      android:layout_width="227dp"
+      android:layout_height="90dp"
+      android:text="Start client"
+      android:id="@+id/start_client"
+      android:background="@drawable/menu_button"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="105dp"/>
+
+  <Button
+      android:layout_width="227dp"
+      android:layout_height="90dp"
+      android:text="Start server"
+      android:id="@+id/start_server"
+      android:background="@drawable/menu_button"
+      android:layout_gravity="center_vertical"
+      android:layout_above="@+id/start_client"
+      android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

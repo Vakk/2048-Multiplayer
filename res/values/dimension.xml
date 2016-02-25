@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="text_in_cells">20dp</dimen>
+  <dimen name="menu_items">40dp</dimen>
+  <dimen name="scores">20dp</dimen>
+</resources>
